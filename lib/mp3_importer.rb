@@ -7,7 +7,6 @@ class MP3Importer
   end
   
   def files
-   # binding.pry
     Dir.children('./spec/fixtures/mp3s')
   end
   
